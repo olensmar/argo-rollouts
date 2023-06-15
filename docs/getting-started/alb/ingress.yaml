@@ -4,6 +4,7 @@ metadata:
   name: rollouts-demo-ingress
   annotations:
     kubernetes.io/ingress.class: alb
+    ingress/version: 1.0
 spec:
   rules:
   - http:
